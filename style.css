@@ -1,0 +1,254 @@
+body {
+    background-color: #71834F;
+}
+
+
+main {
+    margin: 1em;
+
+}
+
+div {
+    display: flex;
+    background-color: #A5B586;
+    padding-top: -2em;
+
+
+}
+
+.flex {
+    display: flex;
+}
+
+.index-kop {
+    position: absolute;
+    bottom: 9em;
+    right: 10%;
+    /* transform: translate(-50%, 50%); */
+    z-index: 1s;
+    text-align: end;
+    align-self: center;
+    font-size: 3.6em;
+    font-family: "juniper-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.index-kop2 {
+    position: absolute;
+    top: 9%;
+    left: 5%;
+    right: 7%;
+    /* transform: translate(-50%, 50%); */
+    z-index: 1s;
+    text-align: end;
+    align-self: center;
+    font-size: 4.5em;
+    font-family: "juniper-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.img-apple {
+    justify-content: right;
+    margin-right: 1em;
+
+}
+
+.mainbord-index {
+    background-color: #BEC9AB;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0.9em;
+    Padding: 2em;
+
+}
+
+.bords-index {
+    border-radius: 1.1em;
+    border-style: solid;
+    font-size: large;
+    /* right: 0; */
+    margin-top: 1em;
+    align-content: center;
+    font-family: "juniper-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+
+}
+
+
+.diy-blok1 {
+    display: flex;
+    background-color: #A5B586;
+    border-radius: 1.5em;
+    margin-bottom: 1em;
+}
+
+
+.border-hoe {
+    border-radius: 1em;
+    border-color: #BEC9AB;
+    border-style: solid;
+    border-width: 0.3em;
+    margin: 0.5em;
+
+    text-align: center;
+    border-collapse: 1em;
+    font-size: large;
+
+}
+
+.padding-hoe {
+    margin-top: 0.3em;
+    margin-bottom: -0.7em;
+    font-size: large;
+}
+
+.padding-p {
+    margin-bottom: -9em;
+}
+
+.leftside-blok1 {
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+
+.leftside-blok2 {
+    margin-right: 0.5em;
+    margin-top: 0.5em;
+}
+
+.peer {
+    background-color: white;
+    border-radius: 0.7em;
+    border-color: #BEC9AB;
+    border-style: solid;
+    border-width: 0.2em;
+    padding: 0.5em;
+    margin-top: 0.1em;
+    text-align: center;
+
+}
+
+.center2-diy {
+    background-color: #BEC9AB;
+    border-radius: 1em;
+    padding-left: 2em;
+    padding-bottom: 0em;
+    padding-top: -1em;
+    font-size: 2.6em;
+    font-family: "juniper-std", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+.center-diy {
+    position: absolute;
+    bottom: 13.2em;
+    left: 4.5em;
+    font-size: 2.6em;
+    font-family: "juniper-std", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+.padding {
+    /* padding-left: 0.5em; */
+    display: flex;
+}
+
+.diy-kop {
+    /* display: flex; */
+    background-color: #BEC9AB;
+    border-radius: 1.2em;
+    padding: 0em;
+
+
+}
+
+.mstext2 {
+    background-color: #BEC9AB;
+    border-radius: 1em;
+    position: absolute;
+    padding: 0.5em;
+    bottom: 14.4em;
+    left: 1.5em;
+    padding-top: 1.8em;
+    font-family: "juniper-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 0;
+}
+
+.mstext1 {
+    background-color: #BEC9AB;
+    border-radius: 1em;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    padding: 0.5em;
+    padding-right: 2.5em;
+    z-index: 3;
+    font-family: "juniper-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+.leesmeer1 {
+    background-color: white;
+    border-radius: 0.7em;
+    border-color: #BEC9AB;
+    border-style: solid;
+    border-width: 0.2em;
+    padding: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: 8em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    text-align: center;
+}
+
+
+header {
+    position: fixed;
+    bottom: 0;
+}
+
+nav {
+    background-color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 1em;
+}
+
+
+
+/* ul li {
+ 
+   /* line-height: 1em; */
+/* } */
+*/ ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
