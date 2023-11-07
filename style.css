@@ -85,6 +85,10 @@ div {
     background-color: #A5B586;
     border-radius: 1.5em;
     margin-bottom: 1em;
+    padding-top: 0.5em;
+    /* padding-bottom: 0em; */
+    /* padding-bottom: 0.5em; */
+    
 }
 
 
@@ -92,33 +96,40 @@ div {
     border-radius: 1em;
     border-color: #BEC9AB;
     border-style: solid;
-    border-width: 0.3em;
-    margin: 0.5em;
+    border-width: 0.2em;
+   
+    margin-left: 0.4em;
+    margin-right: 0.5em;
+    
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
 
     text-align: center;
-    border-collapse: 1em;
+ 
     font-size: large;
 
 }
 
 .padding-hoe {
-    margin-top: 0.3em;
-    margin-bottom: -0.7em;
+    margin: 0.3em;
     font-size: large;
+
+
 }
 
 .padding-p {
-    margin-bottom: -9em;
+    padding-bottom: 0em;
 }
 
 .leftside-blok1 {
-    margin-left: 0.5em;
-    margin-top: 0.5em;
+    margin-left: 0.7em;
+    /* margin-top: 1em; */
 }
 
 .leftside-blok2 {
-    margin-right: 0.5em;
-    margin-top: 0.5em;
+    margin-right: 0.6em;
+    margin-top: 0em;
+    margin-left: 0em;
 }
 
 .peer {
@@ -129,16 +140,15 @@ div {
     border-width: 0.2em;
     padding: 0.5em;
     margin-top: 0.1em;
+    margin-bottom: 0em;
     text-align: center;
 
 }
 
 .center2-diy {
-    background-color: #BEC9AB;
-    border-radius: 1em;
-    padding-left: 2em;
-    padding-bottom: 0em;
-    padding-top: -1em;
+    position: absolute;
+    left: 2.5em;
+    top: 1.4em;
     font-size: 2.6em;
     font-family: "juniper-std", sans-serif;
     font-weight: 100;
@@ -167,33 +177,86 @@ div {
     background-color: #BEC9AB;
     border-radius: 1.2em;
     padding: 0em;
+    padding-bottom: 5em;
+    margin-bottom: 1em;
 
 
+}
+
+.ms-blok1 {
+    background-color: #A5B586;
+    border-radius: 1em;
+    padding: 1em;
+    margin-bottom: 1em;
+
+}
+
+.mstsubkop {
+    padding-left: 0.1;
+    padding-right: 1em;
+}
+
+.av-text {
+    position: absolute;
+    left: 3.6em;
+    top: 6.2em;
+    font-size: 1.8em;
+    font-family: "juniper-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.av-text1 {
+    font-family: "juniper-std", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 1.7em; 
+    position: absolute;
+    left: 7.7em;
+    top: 8.3em
+}
+
+.mijnstadstuin1 {
+    position: absolute;
+    top: 15.3em ;
+    left: 4.4em;
+}
+
+.paragraph-mst {
+    border-style: solid;
+    border-color:#BEC9AB;
+    border-width: 0.25em;
+    border-radius: 1em;
+    margin-top: 0.4em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    text-align: center;
 }
 
 .mstext2 {
     background-color: #BEC9AB;
-    border-radius: 1em;
+    border-radius: 0.5em;
     position: absolute;
     padding: 0.5em;
-    bottom: 14.4em;
+    bottom: 15.1em;
     left: 1.5em;
-    padding-top: 1.8em;
+    padding-top: 2em;
+    padding-bottom: 0em;
     font-family: "juniper-std", sans-serif;
     font-weight: 400;
     font-style: normal;
-    z-index: 0;
+    z-index: 4;
 }
 
 .mstext1 {
     background-color: #BEC9AB;
-    border-radius: 1em;
+    border-radius: 0.5em;
     margin-left: 0.5em;
     margin-top: 0.5em;
     margin-bottom: 2em;
     padding: 0.5em;
     padding-right: 2.5em;
-    z-index: 3;
+    z-index: 0;
     font-family: "juniper-std", sans-serif;
     font-weight: 400;
     font-style: normal;
