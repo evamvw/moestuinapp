@@ -1,19 +1,27 @@
+
+header {
+    position: fixed;
+    bottom: 0; 
+    z-index: 1;
+    margin-bottom: 0em;
+    margin: -1em;
+}
+
 body {
     background-color: #71834F;
 }
 
+header {
+ margin: 0em;
+}
 
 main {
     margin: 1em;
-
 }
 
 div {
     display: flex;
     background-color: #A5B586;
-    padding-top: -2em;
-
-
 }
 
 .flex {
@@ -24,8 +32,7 @@ div {
     position: absolute;
     bottom: 16.3em;
     right: 1.5em;
-    /* transform: translate(-50%, 50%); */
-    z-index: 1s;
+    z-index: 1;
     text-align: end;
     align-self: center;
     font-size: 2.2em;
@@ -49,8 +56,7 @@ div {
     top: 1.2em;
     left: 5%;
     right: 7%;
-    /* transform: translate(-50%, 50%); */
-    z-index: 1s;
+    z-index: 1;
     text-align: end;
     align-self: center;
     font-size: 4em;
@@ -60,33 +66,39 @@ div {
 
 }
 
+.supkop-index {
+    align-items: center;
+    margin-right: 1em;
+}
+
 .img-apple {
     justify-content: right;
     margin-right: 1em;
-
-}
-
-.mainbord-index {
-    background-color: #BEC9AB;
-    border-style: solid;
-    border-color: black;
-    border-radius: 0.9em;
-    Padding: 2em;
-
 }
 
 .bords-index {
     border-radius: 1.1em;
     border-style: solid;
     font-size: large;
-    /* right: 0; */
-    margin-top: 1em;
+    margin-top: 0.4em;
     align-content: center;
     font-family: "juniper-std", sans-serif;
     font-weight: 400;
     font-style: normal;
     text-align: center;
+}
 
+.bords-indexlast {
+    border-radius: 1.1em;
+    border-style: solid;
+    font-size: large;
+    margin-top: 0.4em;
+    margin-bottom: 4em;
+    align-content: center;
+    font-family: "juniper-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
 }
 
 .center-wrmmt {
@@ -133,13 +145,22 @@ div {
     border-radius: 1.6em;
     padding: 0.5em;
    margin-top: 1.5em;
-
 }
 
-.wrmms-text {
-   
+.colorbg-wmlast {
+    display: flex;
+    background-color:#A5B586;
+    border-style: solid;
+    border-color: #BEC9AB;
+    border-width: 0.5em;
+    border-radius: 1.6em;
+    padding: 0.5em;
+   margin-top: 1.5em;
+   margin-bottom: 5.5em;
+}
+
+.wrmms-text {   
     padding-top: 0.5em;
-   
     text-align: center;
     font-size: medium;
     font-family: "open-sans", sans-serif;
@@ -181,8 +202,6 @@ div {
 .banaan-wrmms {
     position: absolute;
     right: 4.2em;
-    
-
 }
 
 .wrmms1 {
@@ -215,20 +234,21 @@ div {
     top: 60.5em;
 }
   
-  
-
-
 .diy-blok1 {
     display: flex;
     background-color: #A5B586;
     border-radius: 1.5em;
     margin-bottom: 1em;
     padding-top: 0.5em;
-    /* padding-bottom: 0em; */
-    /* padding-bottom: 0.5em; */
-    
 }
 
+.diy-bloklast {
+    display: flex;
+    background-color: #A5B586;
+    border-radius: 1.5em;
+    margin-bottom: 5em;
+    padding-top: 0.5em;
+}
 
 .border-hoe {
     text-align: center;
@@ -236,17 +256,12 @@ div {
     border-color: #BEC9AB;
     border-style: solid;
     border-width: 0.2em;
-   
     margin-left: 0.4em;
     margin-right: 0.5em;
-    
     padding-bottom: 0em;
     margin-bottom: 0.5em;
-
     text-align: center;
- 
     font-size: large;
-
 }
 
 .padding-hoe {
@@ -264,14 +279,13 @@ div {
    padding-left: 0.5em;
    padding-top: 0em;
    font-family: "open-sans", sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size: 0.85em;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 0.85em;
 }
 
 .leftside-blok1 {
     margin-left: 0.7em;
-    /* margin-top: 1em; */
 }
 
 .braam {
@@ -322,7 +336,6 @@ font-size: 0.85em;
     font-family: "juniper-std", sans-serif;
     font-weight: 400;
     font-style: normal;
-
 }
 
 .center2-diy {
@@ -333,7 +346,6 @@ font-size: 0.85em;
     font-family: "juniper-std", sans-serif;
     font-weight: 100;
     font-style: normal;
-
 }
 
 .center-diy {
@@ -344,11 +356,9 @@ font-size: 0.85em;
     font-family: "juniper-std", sans-serif;
     font-weight: 100;
     font-style: normal;
-
 }
 
 .padding {
-    /* padding-left: 0.5em; */
     display: flex;
 }
 
@@ -359,8 +369,6 @@ font-size: 0.85em;
     padding: 0em;
     padding-bottom: 5em;
     margin-bottom: 1em;
-
-
 }
 
 .ms-blok1 {
@@ -369,11 +377,18 @@ font-size: 0.85em;
     padding: 1em;
     margin-top: 2em;
     margin-bottom: 1.5em;
+}
 
+.ms-blok1last {
+    background-color: #A5B586;
+    border-radius: 1.5em;
+    padding: 1em;
+    margin-top: 2em;
+    margin-bottom: 6em;
 }
 
 .mstsubkop {
-    padding-left: 0.1;
+    padding-left: 0.1em;
     padding-right: 1em;
 }
 
@@ -425,8 +440,8 @@ font-size: 0.85em;
     padding-left: 0.5em;
     text-align: center;
     font-family: "open-sans", sans-serif;
-font-weight: 400;
-font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .phjem-text {
@@ -447,7 +462,6 @@ font-style: normal;
     position: absolute;
     right: 2em;
     top: 25.5em;
-
 }
 
 .hr-text {
@@ -499,9 +513,6 @@ font-style: normal;
     font-style: normal;
 }
 
-
-
-
 .leesmeer1 {
     background-color: white;
     border-radius: 0.7em;
@@ -517,41 +528,36 @@ font-style: normal;
     text-align: center;
 }
 
-
-header {
-    position: fixed;
-    bottom: 0; 
-    z-index: 1;
-}
-
 nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: white;
-    padding-left: 7em;
-   
+    overflow-x: auto;
+    margin-left: -1em;
+    padding-right: 1em;
 }
+
 
 ul {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
     list-style-type: none;
-    gap: 1em;
-}
-
-
-
-/* ul li {
- 
-   /* line-height: 1em; */
-/* } */
-*/ ul li a {
-    display: block;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
     text-decoration: none;
-    font-size: 1em;
-    color: black;
+    gap: 7em;
+    margin: 0.2em;
+    padding-right: 1.5em;
+    
 }
 
 a {
     text-decoration: none;
     color: black;
 }
+
